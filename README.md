@@ -8,11 +8,13 @@ Features
 Responsive Design: Fully responsive layout that adapts to different screen sizes and devices.
 Smooth Animations: Smooth transitions and animations to enhance user engagement.
 Interactive UI: Interactive elements that respond to user input, such as clicks and hover effects.
-Technologies Used
-HTML5: The backbone of the website, providing the structure and content.
-CSS3: Used for styling the website, including the 3D transformations and animations.
-JavaScript: Adds interactivity and controls the 3D animations.
-Installation
+
+Technologies Used: -
+(i)   HTML5: The backbone of the website, providing the structure and content.
+(ii)  CSS3: Used for styling the website, including the 3D transformations and animations.
+(iii) JavaScript: Adds interactivity and controls the 3D animations.
+
+**Installation**
 Clone the repository:
 bash
 Copy code
