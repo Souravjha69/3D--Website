@@ -62,7 +62,7 @@ body{
 .navbar ul a:hover,.navbar ul .active{
     color: #FC2F3C;
 }
-.navbar button{
+.navbar button,.btn-sec button{
     padding: 10px 25px;
     font-size: 16px;
     background: #FC2F3C;
@@ -79,4 +79,34 @@ body{
     flex-direction: row;
     padding: 3.5rem;
     gap: 5%;
+}
+.bottom-left{
+    width: 50%;
+    height: fit-content;
+
+}
+.bottom-left h1{
+    max-width: 630px;
+    width: 100%;
+    color: #E9e9eb;
+    text-transform: uppercase;
+    font-size: 75px;
+    line-height: 80px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.bottom-left p{
+    max-width: 620px;
+    width: 100%;
+    color: #E9e9eb;
+    font-size: 18px;
+    margin: 20px 0 40px 0;
+}
+.bottom-right{
+    width: 40%;
+    height: fit-content;
+}
+.btn-sec{
+    display: flex;
+    gap: 20px;
 }
