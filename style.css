@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  font-family:"Poppins", sans-serif; 
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+button,input{
+    background: none;
+    outline: none;
+    border: none;
+}
+button{
+    cursor: pointer;
+}
+body{
+    background: #2A3950;
+}
+.main-container{
+    max-width: 1800px;
+    width: 100%;
+    min-height: 100vh;
+    height: fit-content;
+    padding: 0 10%;
+}
+.navbar{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 0;
+}
+.nav-logo{
+    width:130px;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.navbar ul a{
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+.navbar ul a:hover,.navbar ul .active{
+    color: #FC2F3C;
+}
+.navbar button{
+    padding: 10px 25px;
+    font-size: 16px;
+    background: #FC2F3C;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.bottom_sec{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 3.5rem;
+    gap: 5%;
+}
